@@ -1,0 +1,55 @@
+Name: All Sky Surface Shortwave Diffuse Irradiance
+Abbreviation: ALLSKY_SFC_SW_DIFF
+Hourly: The diffuse (light energy scattered out of the direction of the sun) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.
+
+Name: All Sky Insolation Clearness Index
+Abbreviation: ALLSKY_KT
+Hourly: A fraction representing clearness of the atmosphere; the all sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.
+
+Name: All Sky Surface Albedo
+Abbreviation: ALLSKY_SRF_ALB
+Hourly: The all sky rate of reflectivity of the earth's surface; the ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth.
+
+Name: Integrated Solar Zenith Angle
+Abbreviation: Not available
+Hourly: Definition not on parameter dictionary list.
+
+Name: Solar Zenith Angle
+Abbreviation: SZA
+Hourly: The angle between the geodetic zenith vector and a vector from the earth point to the sun integrated over the period.
+
+Name: All Sky Surface PAR Total
+Abbreviation: ALLSKY_SFC_PAR_TOT
+Hourly: The total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under all sky conditions.
+
+Name: All Sky Surface UVA Irradiance
+Abbreviation: ALLSKY_SFC_UVA
+Hourly: The ultraviolet A (UVA 315nm-400nm) irradiance under all sky conditions.
+
+Name: All Sky Surface UVB Irradiance
+Abbreviation: ALLSKY_SFC_UVB
+Hourly: The ultraviolet B (UVB 280nm-315nm) irradiance under all sky conditions.
+
+Name: All Sky Surface UV Index
+Abbreviation: ALLSKY_SFC_UV_INDEX
+Hourly: The ultraviolet radiation exposure index.
+
+Name: Temperature at 2 Meters
+Abbreviation: T2M
+Hourly: The average air (dry bulb) temperature at 2 meters above the surface of the earth.
+
+Name: Relative Humidity at 2 Meters
+Abbreviation: RH2M
+Hourly: The ratio of actual partial pressure of water vapor to the partial pressure at saturation, expressed in percent.
+
+Name: Surface Pressure
+Abbreviation: PS
+Hourly: The average of surface pressure at the surface of the earth.
+
+Name: Wind Direction at 10 Meters
+Abbreviation: WD10M
+Hourly: The average of the wind direction at 10 meters above the surface of the earth.
+
+Name: Wind Speed at 10 Meters
+Abbreviation: WS10M
+Hourly: The average of wind speed at 10 meters above the surface of the earth.
