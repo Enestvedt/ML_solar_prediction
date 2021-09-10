@@ -42,6 +42,10 @@ Name: Relative Humidity at 2 Meters
 Abbreviation: RH2M
 Hourly: The ratio of actual partial pressure of water vapor to the partial pressure at saturation, expressed in percent.
 
+Name: All Sky Surface Shortwave Downward Irradiance
+Abbreviation: ALLSKY_SFC_SW_DWN  
+Hourly: The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions. An alternative term for the total solar irradiance is the "Global Horizontal Irradiance" or GHI.
+
 Name: Surface Pressure
 Abbreviation: PS
 Hourly: The average of surface pressure at the surface of the earth.
