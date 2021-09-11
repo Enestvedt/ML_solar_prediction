@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+
+{% block prediction %}
+    <!-- Starts prediction section -->
+          
+      <div class=“bd-example”>
+        <button id="predict-btn" type="button" class=“btn btn-secondary”>Predict Tomorrow's Output</button>
+      </div>
+      <div class="container">
+        <div class="row margin-top-50">
+          <div class="col-md-12">
+            <div id="table-area" class="">
+              <table id="output-table" class="table table-striped">
+                <thead>
+                  <tr>
+                    <th class="table-head">Time</th>
+                    <th class="table-head">Predicted Output (Wh)</th>
+                  </tr>
+                </thead>
+                <tbody id="output_body"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+            
+    {% endblock %}
+
+
+    {% block forecast %}
+    <!-- Starts forecast section -->
+
+    <div class="wrapper">
+        <div class="hero text-center">
+          <h1>Solar Predictors</h1>
+          <p>Mock predictor data - faux forecast from NASA/LARCS API</p>
+        </div>
+        <div class="container">
+          <div class="row margin-top-50">
+            <div class="col-md-12">
+              <div id="table-area" class="">
+                <table id="forecast-table" class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th class="table-head">month</th>
+                      <th class="table-head">hour</th>
+                      <th class="table-head">ALLSKY_SFC_SW_DIFF</th>
+                      <th class="table-head">T2M</th>
+                      <th class="table-head">RH2M</th>
+                    </tr>
+                  </thead>
+                  <tbody id="forecast_body"></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="static/js/forecast.js"></script>
+
+    {% endblock %}
