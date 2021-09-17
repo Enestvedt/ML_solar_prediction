@@ -21,7 +21,7 @@ engine = create_engine(uri)
 
 #################################################
 @app.route("/")
-def hello_world():
+def api_about():
     return "This api returns faux solar prediction values form 2020.  It is used to provide simulated values to a Machine Learning model to demonstrate a possible use case."
 
 
