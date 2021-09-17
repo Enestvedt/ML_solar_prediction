@@ -1,6 +1,12 @@
 # ML_solar_prediction
 Machine learning application that predicts next day of solar production based on forecast.
 
+**Links to apps:**
+    The API is available at:
+    - https://enestvedtforecast.herokuapp.com/forecast2
+    The application is available at:
+    - https://en-ml-slr.herokuapp.com/
+
 Use machine learning models to predict the solar energy production of a new photovoltaic array in Minneapolis, MN.
 
 We created a machine learning model that takes ‘features’ of weather available form NASA Power Project and determines their effect on solar production of panels at that same location. The module will use 2.5 years of hourly weather data merged with 2.5 years of solar installation output data.  Data was processed and merged using PANDAS.  The model was developed with the SciKit Learn library.
