@@ -2,11 +2,14 @@
 
 
 {% block prediction %}
-    <!-- Starts prediction section -->
+
+
+<!-- Starts prediction section -->
           
       <div class=“bd-example”>
         <button id="predict-btn" type="button" class=“btn btn-secondary”>Predict Tomorrow's Output</button>
       </div>
+      <div id ="outputLoader" class="loader";></div>
       <div class="container">
         <div class="row margin-top-50">
           <div class="col-md-12">
@@ -32,12 +35,13 @@
 
     {% block forecast %}
     <!-- Starts forecast section -->
-
+    
     <div class="wrapper">
         <div class="hero text-center">
           <h1>Solar Predictors</h1>
           <p>Mock predictor data - faux forecast from NASA/LARCS API</p>
         </div>
+        <div id ="inputLoader" class="loader";></div>
         <div class="container">
           <div class="row margin-top-50">
             <div class="col-md-12">
